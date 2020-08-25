@@ -1,6 +1,6 @@
 # Connecticut Zip to School District Crosswalk
 
-The `zip2secondary.csv` file contains a crosswalk between CT zipcodes and
+The `data/zip2secondary.csv` file contains a crosswalk between CT zipcodes and
 secondary school districts in CT.
 
 To prevent Excel from transforming zipcodes to numbers automatically
@@ -18,6 +18,5 @@ school district, so the generated `distance` column will have all 0s.
 
 ### Source datasets
 
-* Regional school district boundaries: https://data.ct.gov/Education/Regional-School-District-Boundaries/mt4b-dfgs
-* Connecticut secondary school Districts: http://magic.lib.uconn.edu/connecticut_data.html#education
+* Connecticut secondary school districts: http://magic.lib.uconn.edu/connecticut_data.html#education
 * Connecticut zipcode boundaries: https://data.ct.gov/Government/Zip-Code-Tabulation-Area-Boundaries/n7kw-xx5z
